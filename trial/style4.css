@@ -1,0 +1,352 @@
+/*.contact {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+}
+
+.contactme {
+  width: 80%;
+  height: 70%;
+  background-image: url(/images/contactme.jpg);
+  position: absolute;
+  justify-content: center;
+  top: 15%;
+  left: 10%;
+  background-size: cover;
+}
+
+.blur {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.579);
+  width: 100%;
+  height: 100%;
+}
+.blur {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+}
+
+.con {
+  position: absolute;
+  height: 20%;
+  width: 30%;
+  color: aliceblue;
+  font-size: 2rem;
+  z-index: 2rem;
+}
+
+.con con1 {
+  background-color: aqua;
+  left: 20%;
+  top: 20%;
+}
+
+.con con2 {
+  background-color: blue;
+}
+*/
+* {
+  scroll-behavior: smooth;
+}
+.contactme {
+  width: 80%;
+  height: 80vh;
+  background-image: linear-gradient(
+      to top right,
+      rgb(0 0 0 / 33%),
+      rgb(0 0 0 / 25%)
+    ),
+    url(/images/hobback.jpg);
+  position: relative;
+  justify-content: center;
+  margin: 10%;
+  background-size: cover;
+  font-family: "Open Sans Condensed";
+}
+
+.grid {
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  left: 50%;
+}
+
+.head4 {
+  position: absolute;
+  top: 20%;
+  font-size: 3rem;
+  left: 10%;
+  color: #9bc7de;
+}
+
+.hob6 {
+  position: absolute;
+  color: white;
+  top: 20%;
+  font-size: 3rem;
+  left: 28%;
+  text-align: center;
+  line-height: 1.2;
+}
+
+.contact {
+  position: absolute;
+  width: 15vw;
+  height: 20vh;
+  border-radius: 10px;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.contact1 {
+  background-color: #9bc6de84;
+  top: 10%;
+  left: 10%;
+}
+
+.contact2 {
+  background-color: #83b1d488;
+  top: 20%;
+  left: 40%;
+}
+
+.contact3 {
+  background-color: #7a90a57a;
+  top: 30%;
+  left: 25%;
+}
+
+.contact4 {
+  background-color: #8b809181;
+  top: 40%;
+  left: 10%;
+}
+
+.contact5 {
+  background-color: #a6849882;
+  top: 50%;
+  left: 40%;
+}
+
+.contact6 {
+  background-color: #d99ab58b;
+  top: 60%;
+  left: 25%;
+}
+
+.contact1:hover {
+  scale: 1.3;
+  z-index: 1000;
+  background-color: #9bc7de;
+  -webkit-box-shadow: 0 1.5rem 4rem #9bc7de88;
+  box-shadow: 0 3rem 8rem #9bc7dea3;
+}
+
+.contact2:hover {
+  scale: 1.3;
+  z-index: 1000;
+  background-color: #83b1d4;
+  -webkit-box-shadow: 0 1.5rem 4rem #83b1d4;
+  box-shadow: 0 3rem 8rem #83b1d4ba;
+}
+
+.contact3:hover {
+  scale: 1.3;
+  z-index: 1000;
+  background-color: #7a90a5;
+  -webkit-box-shadow: 0 1.5rem 4rem #7a90a5;
+  box-shadow: 0 3rem 8rem #829fbade;
+}
+
+.contact4:hover {
+  scale: 1.3;
+  z-index: 1000;
+  background-color: #8b8091;
+  -webkit-box-shadow: 0 1.5rem 4rem #8b8091;
+  box-shadow: 0 3rem 8rem #5c4669cd;
+}
+
+.contact5:hover {
+  scale: 1.3;
+  z-index: 1000;
+  background-color: #a68498;
+  -webkit-box-shadow: 0 1.5rem 4rem #a68498;
+  box-shadow: 0 3rem 8rem #c078a2c1;
+}
+
+.contact6:hover {
+  scale: 1.3;
+  z-index: 1000;
+  background-color: #d99ab5;
+  -webkit-box-shadow: 0 1.5rem 4rem #d99ab5;
+  box-shadow: 0 3rem 8rem #d99ab5cc;
+}
+
+@media (max-width: 1286px) {
+  .contact {
+    width: 18vw;
+  }
+}
+
+@media (max-width: 1200px) {
+  .contact {
+    width: 19vw;
+  }
+}
+
+@media (max-width: 1150px) {
+  .contact {
+    width: 20vw;
+  }
+}
+
+@media (max-width: 1050px) {
+  .grid {
+    width: 60%;
+    height: 105%;
+    left: 24%;
+  }
+}
+
+@media (max-width: 1000px) {
+  .grid {
+    left: 22%;
+  }
+  .contact {
+    width: 23vw;
+  }
+}
+@media (max-width: 950px) {
+  .contact {
+    width: 24vw;
+  }
+}
+
+@media (max-width: 900px) {
+  .contact {
+    width: 27vw;
+  }
+  .grid {
+    left: 21%;
+  }
+}
+
+@media (max-width: 800px) {
+  .contact {
+    width: 29vw;
+  }
+  .grid {
+    left: 19%;
+  }
+}
+
+@media (max-width: 730px) {
+  .contact {
+    width: 31vw;
+  }
+  .grid {
+    left: 17%;
+  }
+}
+
+@media (max-width: 670px) {
+  .contact {
+    width: 34vw;
+  }
+  .grid {
+    left: 14%;
+  }
+}
+
+@media (max-width: 585px) {
+  .contact {
+    width: 38vw;
+  }
+  .grid {
+    left: 11%;
+  }
+}
+
+@media (max-width: 540px) {
+  .contact {
+    width: 41vw;
+  }
+  .grid {
+    left: 9%;
+  }
+}
+
+@media (max-width: 500px) {
+  .contact1 {
+    left: 0%;
+  }
+
+  .contact2 {
+    left: 50%;
+  }
+
+  .contact3 {
+    left: 25%;
+  }
+
+  .contact4 {
+    left: 0%;
+  }
+
+  .contact5 {
+    left: 50%;
+  }
+
+  .contact6 {
+    left: 25%;
+  }
+  .hob6 {
+    left: 26%;
+  }
+}
+
+@media (max-width: 700px) {
+  .contact1 {
+    left: 5%;
+  }
+
+  .contact2 {
+    left: 45%;
+  }
+
+  .contact3 {
+    left: 25%;
+  }
+
+  .contact4 {
+    left: 5%;
+  }
+
+  .contact5 {
+    left: 45%;
+  }
+
+  .contact6 {
+    left: 25%;
+  }
+}
+
+@media (max-width: 450px) {
+  .contact {
+    width: 48vw;
+  }
+  .grid {
+    left: 3%;
+  }
+}
+
+@media (max-width: 400px) {
+  .contact {
+    width: 52vw;
+  }
+  .grid {
+    left: 0%;
+  }
+}
